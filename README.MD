@@ -3,7 +3,7 @@
 This Streamlit-based application monitors water quality parameters and uses a machine learning model to predict water potability (i.e. whether the water is safe to drink). It offers two interfaces:
  
 1. **Interactive Dashboard** – Adjust water quality parameters via sliders and see real-time visualizations and predictions.
-2. **Batch Analysis** – Upload CSV/XLSX files containing water quality data (supports multiple files) and get predictions along with advice based on selected water quality standards (WHO, EPA, or BIS).
+2. **Batch Analysis** – Upload CSV/XLSX files containing water quality data (supports multiple files) and get predictions  on selected water quality standards of WHO.
 
 ## Features
 
@@ -14,7 +14,7 @@ This Streamlit-based application monitors water quality parameters and uses a ma
 
 - **Water Quality Parameters:**  
   - Parameters include: `pH`, `Hardness`, `Solids`, `Chloramines`, `Sulfate`, `Conductivity`, `Organic_carbon`, `Trihalomethanes`, and `Turbidity`.
-  - Before batch analysis, users select a water quality standard (WHO, EPA, or BIS) to benchmark results.
+  - Before batch analysis, users select a water quality standard WHO to benchmark results.
   - The app highlights key parameters and advises on which ones are most critical.
 
 - **Interactive Visualizations & Dark Mode:**  
