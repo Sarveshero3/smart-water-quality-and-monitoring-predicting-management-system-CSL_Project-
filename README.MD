@@ -33,4 +33,3 @@ This Streamlit-based application monitors water quality parameters and uses a ma
 
 ```bash
 git clone https://github.com/Sarveshero3/smart-water-quality-and-monitoring-predicting-management-system-CSL_Project
-cd water-quality-app
